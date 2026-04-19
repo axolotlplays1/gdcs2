@@ -1,27 +1,29 @@
 ---
 draft: false
+authors:
+  - aquarware
 title: Detail Objects
 weight: 5030
 date: 2024-01-14T00:00:00.000Z
-description: This guide explains what detail objects are and how to use them.
-authors:
-  - aquarware
 contributors:
   - aquarware
   - komatic5
+description: This guide explains what detail objects are and how to use them.
 tags:
   - Grade 1
   - Deco Basics
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Detail Objects are those that the player cannot interact with, and are usually used to enhance decoration.
 - There are many detail objects which we can categorize based on their shape, texture and glow.
 - Any object can be used as a detail; this includes text, animated objects, or just the base or detail color of an object.
 
+
 {{< /callout >}}
 
-** **
+- - -
+
 Detail Objects are objects that usually don't have a hitbox. You can use them to enhance your deco without directly affecting gameplay, and they can be used in many ways depending on their different factors.
 
 Most detail objects can be found in these tabs.
@@ -95,17 +97,22 @@ Next, I decided to start with major details – ones that directly affect the pi
 
 I also colored these objects in a way that indicated how the pillar was being lit. There is some yellow light on the left side and some reflected purple light on the right, so I outlined the pillar in those colors accordingly.
 
-Finally, I added more cracks inside the pillar to strengthen the ruined vibe I wanted, and some glow for depth - specifically ambient occlusion, which made it look as realistic as I wished.
+Finally, I added more cracks inside the pillar to strengthen the ruined vibe I wanted, and some glow for depth - specifically ambient occlusion, which made it look as realistic as I wished.\
+\
+Afterwards, the deeper you go into detail the more objects you can use to make their use less evident. once you feel like you got the general feel of the shape and concept, try refining your details to make them feel more organic.\
+For example, instead of just using one shattered object, in his xitayen part, Ivashka uses multiple objects to make the window´s crack feel more natural and realistic.\
+\
+**Note:** Just remember that small parts of an art, block, or part dont need that much intricate detail, remember to give more detail to the places you want more focus to be drawn to, or else everything will look messy or flat depending on the quantity of detail
 
 # 3: Uncommon Object Uses
 
 There are many ways to use objects in the editor; however, many of these techniques aren't the most intuitive without some prior guidance. Here are some examples of them.
 
-- By setting an object's Base or Detail Color to an invisible color channel (opacity 0 or black with blending enabled), you can **partially mask** it and use the resulting shape in new ways.
+* By setting an object's Base or Detail Color to an invisible color channel (opacity 0 or black with blending enabled), you can **partially mask** it and use the resulting shape in new ways.
 
 {{< img src="https://lh3.googleusercontent.com/d/1OaRXjF6EvEkFjedTPH0YN-ROP7IqA-Kz" >}}
 
-- Text objects (found in the :YellowOrb: Gameplay Objects tab) are also interesting as they let you get a near-limitless amount of new shapes. You'll see these fairly often in works from people like Bli and Galofuf.
+* Text objects (found in the :YellowOrb: Gameplay Objects tab) are also interesting as they let you get a near-limitless amount of new shapes. You'll see these fairly often in works from people like Bli and Galofuf.
 
 {{< img src="https://lh3.googleusercontent.com/d/1uyDWtEA8IMh3BVAP2qw22D2tFNuSfgL3" >}}
 
@@ -117,7 +124,7 @@ Here is an example from Galofuf's part in Carcass, where you can see various cha
 
 {{< img src="https://lh3.googleusercontent.com/d/1b5HzlqmFZ3eVZe7CGuBp2hINLXlA9gmW" >}}
 
-Objects in the Particle and Animated Object tabs can also be used in interesting ways. However, be aware that they are always __one Z layer below other objects with the same Z layer__. As with Blending objects, you need to put them one Z layer above everything else.
+Objects in the Particle and Animated Object tabs can also be used in interesting ways. However, be aware that they are always **one Z layer below other objects with the same Z layer**. As with Blending objects, you need to put them one Z layer above everything else.
 
 *Same Z Layer and higher Z Order:*
 
