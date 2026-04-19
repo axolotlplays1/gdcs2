@@ -15,9 +15,11 @@ tags:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - Detail Objects are those that the player cannot interact with, and are usually used to enhance decoration.
 - There are many detail objects which we can categorize based on their shape, texture and glow.
 - Any object can be used as a detail; this includes text, animated objects, or just the base or detail color of an object.
+
 
 
 {{< /callout >}}
@@ -100,7 +102,11 @@ I also colored these objects in a way that indicated how the pillar was being li
 Finally, I added more cracks inside the pillar to strengthen the ruined vibe I wanted, and some glow for depth - specifically ambient occlusion, which made it look as realistic as I wished.\
 \
 Afterwards, the deeper you go into detail the more objects you can use to make their use less evident. once you feel like you got the general feel of the shape and concept, try refining your details to make them feel more organic.\
-For example, instead of just using one shattered object, in his xitayen part, Ivashka uses multiple objects to make the window´s crack feel more natural and realistic.\
+For example, instead of just using one shattered object, in his xitayen part, Ivashka uses multiple objects to make the window´s crack feel more natural and realistic.
+
+![](/images/captura-de-ecrã-2026-04-19-171518.png)
+
+\
 \
 **Note:** Just remember that small parts of an art, block, or part dont need that much intricate detail, remember to give more detail to the places you want more focus to be drawn to, or else everything will look messy or flat depending on the quantity of detail
 
